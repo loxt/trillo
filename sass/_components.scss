@@ -180,10 +180,57 @@
 
 ///////////////////////////////////
 // Legal text
+
 .legal {
   font-size: 1.2rem;
   color: var(--color-grey-light-4);
 
   text-align: center;
   padding: 2.5rem;
+}
+
+///////////////////////////////////
+// Gallery
+
+.gallery {
+  display: flex;
+  &__photo {
+    width: 100%;
+  }
+}
+
+///////////////////////////////////
+// Hotel Overview
+
+.overview {
+  display: flex;
+  align-items: center;
+
+  &__heading {
+
+  }
+
+  &__stars {
+    margin-right: auto;
+  }
+
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
+
+  &__location {
+  }
+
+  &__rating {
+
+    &-averange {
+
+    }
+
+    &-count {
+    }
+  }
 }
